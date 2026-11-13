@@ -1,3 +1,15 @@
+/** The creation works!
+ *
+ *  My apporach to the solution was to test my colective understanding.
+ *
+ *  I first created a function on my own. Then I reference the ECMA Script Language Specification.
+ *  After I reviewed the book. Then I looked at youtube videos to get insight on workable functions calculating averages
+ *
+ *  What I did notice is that everyone arrived to the average using  their own approach.
+ *
+ *
+ *  **/
+
 function calculateMyAverage(myGrades) {
   if (myGrades.length === 0) return 0;
   const sum = myGrades.reduce((total, grade) => total + grade, 0);
